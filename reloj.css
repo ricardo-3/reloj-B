@@ -1,0 +1,86 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Audiowide', cursive;
+  
+}
+
+body{font-size: 20px;
+    background-color: #dde1ef;
+     
+}
+
+.wrap{
+    width: 60%;
+    max-width: 1000px;
+    margin:100px auto;
+    border-radius:10px;
+    background-color: #dde1ef;
+    box-shadow: -3px -3px 7px #fff,
+    3px 3px 5px rgba(94, 104, 121, 0.7); 
+}
+
+.widget{
+    width: 90%;
+    max-width: 90%;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.widget p{
+    max-width: 100%;
+    display: inline-block;
+    line-height: 1em;
+    color: black;  
+}
+
+.fecha{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 100%;
+    
+
+    box-shadow: inset -2px -2px 8px #fff,
+    inset 3px 3px 5px rgba(0, 0, 0, 0.2) ; 
+    margin-bottom: 30px;
+}
+
+/*
+color de resalta reloj
+background-color:rgb( 233, 220, 220,) ;
+    box-shadow: -3px -3px 8px #fff, 
+    3px 3px 5px rgba(94, 104, 121, 0.7);*/
+
+.reloj{
+    width: 100%;
+    padding: 20px;
+    font-size: 6em;
+    text-align: center;
+    box-shadow: inset -2px -2px 8px #fff,
+    inset 3px 3px 5px rgba(0, 0, 0, 0.2) ; 
+    margin-bottom: 30px;
+}
+
+
+.reloj p{ background-color:rgb( 233, 220, 220,) ;
+          box-shadow: -3px -3px 8px #fff, 
+          3px 3px 5px rgba(94, 104, 121, 0.7);}
+
+.reloj .caja-segundos{
+    display: inline-block;
+}
+
+
+
+.reloj .segundos,
+.reloj .ampm{font-size: 3rem;
+    display: block;
+
+}
+
+
